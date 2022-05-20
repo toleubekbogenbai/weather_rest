@@ -1,4 +1,4 @@
-# Приложение Spring Boot / REST API / database MySQL
+# Приложение Spring Boot / REST API / database PostgreSQL
 
 --- 
 * HTTP методы:
@@ -14,10 +14,12 @@ ___
 ___
 ### При добавлении в базу данных новых записей изменения сразу же отображаются на странице HTML
 
-### Поля в базе данных (mySQL)
+### Поля в базе данных (PostgreSQL)
 
     * id (int)
     * cityname (String)
-    * temperature (String)
-    * airhumidity (String)
+    * temperature (double)
+    * airhumidity (double)
+   
+ 
 
